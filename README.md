@@ -7,6 +7,7 @@ This project focuses on brain tumor segmentation from MRI scans using Deep Learn
 Dataset:
  
 The dataset used for this project is from Kaggle:
+
 Brain Tumor MRI Dataset ((https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation))
 
 This dataset contains brain MR images together with manual FLAIR abnormality segmentation masks.
