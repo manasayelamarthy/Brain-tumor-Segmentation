@@ -64,6 +64,7 @@ BCE was optimized using the Adam optimizer
 ## Results
 
 Training Loss	0.0310
+
 Test Loss	0.0334
 
 Best Model	U-Net + Adam + BCE loss
