@@ -19,7 +19,9 @@ They correspond to 110 patients included in The Cancer Genome Atlas (TCGA) lower
 Before training the model, the following preprocessing steps were applied:
 
 1️⃣ Resizing → Resized all images to 256x256 for uniform input.
+
 2️⃣ Normalization → Scaled pixel values between [0, 1].
+
 3️⃣ Augmentation → Applied transformations such as:
 
 Random Flipping (Horizontal & Vertical)
@@ -65,8 +67,5 @@ Training Loss	0.0310
 Test Loss	0.0334
 
 Best Model	U-Net + Adam + BCE loss
-🔹 Visualization
-The following MRI scan shows Ground Truth (Red) vs. Model Prediction (Green):
 
-(Replace with actual image from results)
 
